@@ -1,0 +1,27 @@
+@font-face {
+    font-family: NotoSans;
+    src: url(./fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf);
+}
+
+html {
+    --background-gradient-one: #9845b9;
+    --background-gradient-two: #490d61;
+    background-image: linear-gradient(to bottom, var(--background-gradient-one), var(--background-gradient-two));
+    min-height: 100%;
+
+    font-family: NotoSans;
+
+    main {
+        p {
+            width: 80%;
+            padding: 1%;
+            background-color: #e8aeff;
+            border-radius: 10px;
+            border-style:solid;
+            border-color: #bc83d3;
+            text-align: center;
+            margin: auto;
+            margin-top: 10px;
+        }
+    }
+}
